@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: UmbraCi个人博客
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: UmbraCi
+language: zh-Hans
 timezone: ''
 
 # URL
@@ -102,3 +102,10 @@ deploy:
   repo:
     github: https://github.com/UmbraCi/umbraci.github.io
   branch: master
+
+#Search
+  search:
+      path: search.xml
+      field: post
+      format: html
+      limit: 10000
